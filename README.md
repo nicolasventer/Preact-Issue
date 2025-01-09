@@ -16,6 +16,8 @@ Project showing an issue in Preact
 
 The page is freezing when we move from `preact@10.24.3` to `preact@10.25.0` when using [Mantine Select component](https://mantine.dev/core/select/) or [Mantine Segmented Control component](https://mantine.dev/core/segmented-control/) (only some components are freezing the page).
 
+Version of bun: `1.1.43`.
+
 Content of `package.json`:
 
 ```json
