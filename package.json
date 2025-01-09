@@ -12,7 +12,7 @@
 		"@mantine/core": "7.15.3",
 		"@mantine/hooks": "7.15.3",
 		"@preact/signals": "2.0.0",
-		"preact": "10.24.3"
+		"preact": "10.25.0"
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.9.3",
