@@ -1,24 +1,3 @@
-# Preact-Issue
-
-Project showing an issue in Preact
-
-## Steps to reproduce
-
-1. Clone this repository
-2. Run `bun install`
-3. Run `bun run dev` (this should work)
-4. Press `Ctrl + C` to stop the server
-5. Go to branch `not_working` by running `git checkout not_working`
-6. Run `bun install`
-7. Run `bun run dev` (this should not work, it will freeze)
-
-## Description
-
-The page is freezing when we move from `preact@10.24.3` to `preact@10.25.0` when using [Mantine Select component](https://mantine.dev/core/select/) or [Mantine Segmented Control component](https://mantine.dev/core/segmented-control/) (only some components are freezing the page).
-
-Content of `package.json`:
-
-```json
 {
 	"name": "vite-project",
 	"private": true,
@@ -52,4 +31,3 @@ Content of `package.json`:
 		"vite": "^6.0.5"
 	}
 }
-```
