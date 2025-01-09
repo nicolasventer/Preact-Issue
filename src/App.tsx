@@ -3,7 +3,7 @@ import { signal } from "@preact/signals";
 
 const s = signal("t");
 
-function App() {
+export function App() {
 	return (
 		<div>
 			Hello
@@ -14,5 +14,3 @@ function App() {
 		</div>
 	);
 }
-
-export default App;
